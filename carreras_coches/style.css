@@ -1,0 +1,63 @@
+#titulo {
+  font-family: fantasy;
+  font-size: 60px;
+  margin-top: 0px;
+  text-align: center;
+  line-height: 110px;
+  color: #101010;
+}
+
+#cabecera {
+  background-position: 70% 68%;
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+#tituloContainer {
+  margin: 0px;
+  margin-bottom: 1%;
+  padding-top: 1%;
+  font-family: fantasy;
+  font-size: 1.5em;
+}
+
+#eleccion {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#listaJugadores {
+  font-family: fantasy;
+  padding: 0.2%;
+  font-size: 20px;
+  border: 2px solid #101010;
+}
+
+#iniciar, #reiniciar {
+  font-family: fantasy;
+  padding: 0.3%;
+  font-size: 20px;
+  color: white;
+  background-color: #101010;
+}
+
+#listaJugadores:hover {
+  background-color: #ece8e8;
+}
+
+.posicion {
+  position: relative;
+  float: right;
+  top: 1em;
+  right: 8em;
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+  height: 0px;
+}
